@@ -1,0 +1,7 @@
+#!/bin/bash
+
+dseditgroup="/usr/sbin/dseditgroup"
+
+${dseditgroup} -o create gaussian
+
+exit 0
