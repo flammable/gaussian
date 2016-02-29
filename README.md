@@ -8,7 +8,7 @@ Also: I'm not 100% convinced that this software works correctly on OS X 10.9 and
 
 ### Requirements
 
-As the code is written, you'll need [outset](https://github.com/chilcote/outset) (pre-2.0, for now), [Munki](https://github.com/munki/munki) and [The Luggage](https://github.com/unixorn/luggage).  If you know what you're doing, feel free to modify this to be more generic.  I mostly just want this to be out there, in case anyone faces the same request.
+As the code is written, you'll need [outset](https://github.com/chilcote/outset) (pre-2.0, for now), [Munki](https://github.com/munki/munki) and [The Luggage](https://github.com/unixorn/luggage).  You'll also need my [luggage.local file](https://github.com/flammable/luggage_local).  If you know what you're doing, feel free to modify this to be more generic.  I mostly just want this to be out there, in case anyone faces the same request.
 
 You'll also need two files, provided by the developer: `gv-509-MacOSX-Intel.tgz` and `M64-108X.tgz`.  This is the Gaussian 09 and GaussView software, copied from the discs.  I cannot provide these files.  Place them in the same directory as this repository.
 
