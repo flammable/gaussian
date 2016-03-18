@@ -2,10 +2,11 @@ USE_PKGBUILD=1
 include /usr/local/share/luggage/luggage.make
 TITLE=gaussian
 REVERSE_DOMAIN=com.gaussian
-PACKAGE_VERSION=1.2
+PACKAGE_VERSION=1.2.1
 PAYLOAD=\
 	pack-script-preinstall\
-	pack-usr-local-outset-login-once-gaussian.sh\
+	pack-usr-local-outset-login-once-gaussian_setup.sh\
+	pack-usr-local-outset-login-every-gaussian_cache_clean.sh\
 	ungz-applications-gaussview\
 	ungz-applications-gaussian09\
 	pack-script-postinstall
