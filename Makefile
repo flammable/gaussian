@@ -33,4 +33,5 @@ munkiimport: dmg
 --minimum_os_version "10.5.0" \
 --requires "Add Gaussian User" \
 --requires "outset" \
+--unattended_install \
 "${DMG_NAME}"
